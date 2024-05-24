@@ -48,14 +48,12 @@ module.exports = {
     // Add other networks as needed
     // ...
   },
-  // configuration for harhdat-verify plugin
-  etherscan: {
-    apiKey: etherscanApiKey,
-  },
+  // Configuration for hardhat-deploy plugin
+  // Specify the directory where deployment scripts are located
   deploy: {
     scripts: "./deploy",
   },
-  // configuration for etherscan-verify from hardhat-deploy plugin
+  // Configuration for etherscan-verify from hardhat-deploy plugin
   verify: {
     etherscan: {
       apiKey: etherscanApiKey,
